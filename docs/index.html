@@ -496,6 +496,20 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
     <!-- End Google Map -->
-    <iframe src="https://sitesphere.github.io/SiteSphere/"></iframe>
+    <style>
+      .iframe-container iframe {
+        position: absolute;
+        left: 0;
+        height: 4%;
+        border: 0;
+        background-color: #eeeeee;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+    <div class="iframe-container">
+      <iframe src="https://sitesphere.github.io/SiteSphere/"></iframe>
+    </div>
   </body>
 </html>
